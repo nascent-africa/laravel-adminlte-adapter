@@ -1,0 +1,27 @@
+preset: package
+
+namespace: NascentAfrica\LaravelAdminlteAdapter
+user-auth-provider: App\Models\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ''
+
+console:
+  namespace: NascentAfrica\LaravelAdminlteAdapter\Console
+
+model:
+  namespace: NascentAfrica\LaravelAdminlteAdapter
+
+provider:
+  namespace: NascentAfrica\LaravelAdminlteAdapter\Providers
+
+testing:
+  namespace: NascentAfrica\LaravelAdminlteAdapter\Tests
