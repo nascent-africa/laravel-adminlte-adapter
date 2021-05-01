@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NascentAfrica\\LaravelAdminlteAdapter\\": "src"
+            "NascentAfrica\\LaravelAdminlteAdapter\\": "src/NascentAfrica/LaravelAdminlteAdapter"
         }
     },
     "autoload-dev": {
